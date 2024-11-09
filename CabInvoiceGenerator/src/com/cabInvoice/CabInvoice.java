@@ -8,7 +8,7 @@ public class CabInvoice {
 		cab.setCabType("BMW");
 		cab.setKmsUsed("120");
 		cab.setUserId(111);
-		cab.setUserNme("Raj");
+		cab.setUserNme("Raja");
 		String result = Service.printBillAmount(cab);
 		System.out.println(result);
 	}
